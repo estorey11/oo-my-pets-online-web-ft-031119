@@ -13,7 +13,7 @@ class Owner
     @@all.clear
   end
   
-  def initialize
+  def initialize(name)
     @@all << self 
   end
 
