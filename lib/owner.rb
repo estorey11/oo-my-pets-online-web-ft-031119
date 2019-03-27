@@ -1,5 +1,5 @@
 class Owner
-  @@all
+  @@all=[]
   
   def self.all
     @@all
